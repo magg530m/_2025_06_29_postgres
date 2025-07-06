@@ -48,6 +48,7 @@ From student
 WHERE name='信忠';
 
 ```
+## 顯示全部資料由大到小
 
 ```sql
 SELECT *
@@ -55,6 +56,7 @@ From student
 ORDER BY student_id DESC;
 
 ```
+## 顯示全部資料由大到小限制３筆
 
 ```sql
 SELECT *
@@ -62,3 +64,36 @@ From student
 ORDER BY student_id DESC
 LIMIT 3;
 ```
+## 更新資料
+
+```sql
+UPDATE student
+SET name=　'阿柱',
+    major= '數學'
+WHERE student_id= 2;
+```
+
+## 刪除第二筆資料
+
+```sql
+DELETE FROM student
+WHERE student_id= 2;
+```
+
+## 刪除全部資料
+
+```sql
+DELETE FROM student
+WHERE student_id in (1,3,4);
+```
+
+
+UPDATE student
+SET name = '阿柱',
+    major = '數學'
+WHERE student_id = 2;
+
+UPDATE student
+SET name = '阿柱',
+    major = '數學'
+WHERE student_id = 2;

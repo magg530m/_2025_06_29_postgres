@@ -36,3 +36,29 @@ VALUES ('呂育君', '歷史');
 INSERT INTO student (name, major)
 VALUES ('小柱', '生物'),('信忠','英語');
 ```
+
+```sql
+SELECT student_id, name, major
+From student;
+```
+
+```sql
+SELECT *
+From student
+WHERE name='信忠';
+
+```
+
+```sql
+SELECT *
+From student
+ORDER BY student_id DESC;
+
+```
+
+```sql
+SELECT *
+From student
+ORDER BY student_id DESC
+LIMIT 3;
+```

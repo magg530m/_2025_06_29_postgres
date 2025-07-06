@@ -86,14 +86,3 @@ WHERE student_id= 2;
 DELETE FROM student
 WHERE student_id in (1,3,4);
 ```
-
-
-UPDATE student
-SET name = '阿柱',
-    major = '數學'
-WHERE student_id = 2;
-
-UPDATE student
-SET name = '阿柱',
-    major = '數學'
-WHERE student_id = 2;

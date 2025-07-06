@@ -8,7 +8,7 @@ CREATE TABLE [IF NOT EXISTS] table_name (
    table_constraints
 );
 ```
-##建立一個student 資料表
+## 建立一個student資料表
 
 ```sql
 CREATE TABLE IF NOT EXISTS student(

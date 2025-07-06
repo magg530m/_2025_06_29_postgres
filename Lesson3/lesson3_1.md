@@ -16,3 +16,4 @@ CREATE TABLE IF NOT EXISTS student(
     name VARCHAR(20) NOT NULL,
     major VARCHAR(20) UNIQUE
 );
+```

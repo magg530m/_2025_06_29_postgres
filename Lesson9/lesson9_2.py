@@ -12,9 +12,11 @@ def get_user_name()->str:
     else:
         name = args.name
 
-    return name
+    # return ne, args.frequencycy
+    return name, args.frequency
 
 def play_game(name:str)->None:
+    i = 0
     print(f"========猜數字遊戲第{i+1}次=========\n\n")
     min = 1
     max = 100
@@ -40,8 +42,8 @@ def play_game(name:str)->None:
             print("請輸入提示範圍內的數字\n")
 
 def main():
-    frequency = 1
-    name = get_user_name()
+    # frequency = 1
+    name, frequency = get_user_name()
     for i in range(frequency):
         play_game(name)
     print(f"遊戲結束,{name}共玩了{frequency}次")
